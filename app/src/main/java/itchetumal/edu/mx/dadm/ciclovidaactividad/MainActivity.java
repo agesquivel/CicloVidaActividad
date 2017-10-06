@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity
                 new OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                       Toast.makeText(MainActivity.this, "Ejecutando listener con clases anónima",
-                               Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, "Ejecutando listener con clases anónima",
+                                Toast.LENGTH_LONG).show();
                     }
                 }
 
@@ -35,9 +35,6 @@ public class MainActivity extends AppCompatActivity
         );
 
     }
-
-    @Override
-
 
     @Override
     public void onStart() { super.onStart();
